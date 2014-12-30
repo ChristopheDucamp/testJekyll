@@ -1,0 +1,18 @@
+# Reglages du site
+title: Mon Super Site
+email: votre-email@domaine.com
+description: # ceci signifie ignorer les nouvelles lignes jusqu'à "baseurl:"
+  # Écrivez ici une description fascinante de votre nouveau site. Vous pouvez modifier cette ligne dans 
+  # _config.yml. Elle apparaîtra dans le meta en haut de votre document (pour les resultats de recherche Google) et 
+  # dans votre description de site sur le feed.xml.
+baseurl: "" # le sous-chemin de votre site, par ex. /blog/
+url: "http://votredomaine.com" # le nom d'hebergeur de base et le protocole de votre site
+twitter_username: xtof_fr
+github_username:  christopheducamp
+
+# Réglages de construction 
+markdown: kramdown
+
+collections:
+      music:
+        output: true
